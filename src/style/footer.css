@@ -1,0 +1,38 @@
+.footer {
+  background-color: #203740;
+  color: white;
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+}
+.socialMediaIconsStyle {
+  size: "5em";
+  margin: "0px 8px";
+  color: #fff;
+}
+.socialMediaIconsStyle:hover {
+  color: blue;
+  transform: scale(1.2);
+}
+.footer p {
+  font-size: 15px;
+}
+@media (max-width: 576px) {
+  .footerIcones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+  }
+  .footer p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 576px) {
+  .footerIcones {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 30px;
+  }
+}
