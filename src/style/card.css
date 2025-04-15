@@ -1,28 +1,46 @@
-.cardImg{
-     padding: 10px 10px 0 10px;
+.cardImg {
+  padding: 10px 10px 0 10px;
 }
-.cardbtn{
-    text-decoration: none;
-    background-color: #353b48;
-    padding: 8px 15px;
-    color: white;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+.cardbtn {
+  text-decoration: none;
+  background-color: #353b48;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-
-.card-text{
-    color: #6C757D;
-    font-size:15px;
+.card-body {
+  padding-bottom: 30px;
 }
-.myrow{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.card-text {
+  color: #6c757d;
+  font-size: 15px;
+}
+.myrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .card {
-    width: 20rem;
-
+  width: 20rem;
+}
+.cardbtn:hover {
+  background-color: #fff;
+  color: #ff6b08;
+}
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
 }

@@ -36,8 +36,8 @@ const footer = () => {
           </Link>
         </div>
         <div className="mx-auto">
-          <p className="pt-3 text-center ">
-            ©copyright 2024 :Yasar repair services.All Rights Reserved
+          <p className=" text-center ">
+            ©copyright 2025 :Yasar repair services.All Rights Reserved
           </p>
         </div>
       </footer>
