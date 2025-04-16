@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <>
-      <div className="container mt-5 text-center" id="about">
+      <div className="container mt-5 text-center " id="about">
         <p>Who am I</p>
         <h1 className="about-heading">About Me</h1>
         <p style={margintop}>
