@@ -1,0 +1,38 @@
+.services {
+  background-color: #e9ecef;
+  margin-top: 90px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100%;
+}
+.myrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  height: auto;
+  margin-top: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  .myrow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .myrow {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services {
+    margin-top: 70px;
+  }
+}

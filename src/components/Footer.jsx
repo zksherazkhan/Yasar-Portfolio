@@ -1,3 +1,4 @@
+import React from "react";
 import "../style/footer.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";

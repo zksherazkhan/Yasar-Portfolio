@@ -1,6 +1,6 @@
 import "../style/about.css";
 import aboutImg from "../assets/yasarImg.png";
-import { Fade } from "react-awesome-reveal";
+
 const About = () => {
   const margintop = {
     marginTop: "-5px",
@@ -9,13 +9,10 @@ const About = () => {
   return (
     <>
       <div className="container mt-5 text-center " id="about">
-        <Fade direction="up" duration={1500}>
-          <p>Who am I</p>
-          <h1 className="about-heading">About Me</h1>
-          <p style={margintop}>
-            Experienced phone repair technician with 8 years in the field.
-          </p>
-        </Fade>
+        <p>Who am I</p> <h1 className="about-heading">About Me</h1>
+        <p style={margintop}>
+          Experienced phone repair technician with 8 years in the field.
+        </p>
         <div className="about-description mt-5">
           <div className="row about-row">
             <div className="col-md-5 ">

@@ -1,6 +1,6 @@
+import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -16,8 +16,8 @@ function App() {
       <About />
       <Services />
       <Gallery />
-      <Contact />
-      <Footer />
+      {/* <Contact />
+      <Footer />  */}
     </>
   );
 }

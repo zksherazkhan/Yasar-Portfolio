@@ -1,3 +1,13 @@
+.card {
+  /* width: 18rem; */
+  height: 26em;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
 .cardImg {
   padding: 10px 10px 0 10px;
 }
@@ -6,27 +16,22 @@
   background-color: #353b48;
   padding: 5px 10px;
   color: white;
+  margin-bottom: 20px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+
 .card-body {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 .card-text {
   color: #6c757d;
   font-size: 15px;
 }
-.myrow {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.card {
-  width: 20rem;
-}
+
 .cardbtn:hover {
   background-color: #fff;
   color: #ff6b08;
@@ -43,4 +48,59 @@
   -moz-transform: scale(1.02);
   -ms-transform: scale(1.02);
   -o-transform: scale(1.02);
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .cardImg {
+    padding: 0px;
+  }
+  .cardbtn {
+    margin-bottom: 0px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .cardbtn {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .cardImg {
+    padding: 0px;
+  }
+  .cardbtn {
+    margin-bottom: 0px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .cardbtn {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .cardImg {
+    padding: 0px;
+  }
+  .cardbtn {
+    margin-bottom: 0px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .cardbtn {
+    margin-bottom: 20px;
+  }
 }

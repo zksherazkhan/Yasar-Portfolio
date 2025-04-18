@@ -11,13 +11,13 @@ const Gallery = () => {
   return (
     <>
       <div className="container myGallery" id="gallery">
-        <h1 className="text-center">Gallery</h1>
+        <h1 className="text-center pt-5 ">Gallery</h1>
         <div
           id="carouselExampleControls"
           className="carousel slide"
           data-bs-ride="carousel"
         >
-          <div className="carousel-inner py-4">
+          <div className="carousel-inner ">
             <div className="carousel-item active">
               <div className="row">
                 <div className="col-sm-3 ">
@@ -67,6 +67,7 @@ const Gallery = () => {
             type="button"
             data-bs-target="#carouselExampleControls"
             data-bs-slide="prev"
+            style={{ color: "black" }}
           >
             <span
               className="carousel-control-prev-icon"

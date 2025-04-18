@@ -3,7 +3,10 @@
   color: white;
   display: flex;
   align-items: center;
-  min-height: 50px;
+  min-height: 70px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .socialMediaIconsStyle {
   size: "5em";
