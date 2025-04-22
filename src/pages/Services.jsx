@@ -3,6 +3,7 @@ import Data from "./Data";
 import Card from "./Card";
 import "../style/card.css";
 import "../style/services.css";
+
 const Services = () => {
   return (
     <div className="services" id="services">

@@ -6,10 +6,10 @@ import "../style/home.css";
 const Home = () => {
   const [text] = useTypewriter({
     words: [
-      "will be your P.Technician",
-      "Fix your screen",
-      "Fix your Charging port",
-      "Fix your software issues",
+      "Be your Phone Technician",
+      "Fix your Screen",
+      "Fix your Charging Port",
+      "Fix your Software Issues",
     ],
     loop: 0,
     typeSpeed: 100,

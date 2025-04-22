@@ -1,5 +1,5 @@
 .card {
-  /* width: 18rem; */
+  width: 21rem;
   height: 26em;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -8,9 +8,6 @@
   -o-border-radius: 10px;
 }
 
-.cardImg {
-  padding: 10px 10px 0 10px;
-}
 .cardbtn {
   text-decoration: none;
   background-color: #353b48;
